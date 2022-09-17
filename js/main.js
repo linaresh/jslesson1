@@ -7,13 +7,13 @@ const personalMovies = {
         genres: [],
         private: false
     }
-let filmName = prompt("Один из последних посмотренный фильмов?", "");
+let filmName = prompt('Один из последних посмотренный фильмов?', '');
 let filmRaiting = prompt("Рейтинг фильма?");
 
 personalMovies.movies[filmName] = +filmRaiting;
 
-filmName = prompt("Один из последних посмотренный фильмов?", "");
-filmRaiting = prompt("Рейтинг фильма?");
+filmName = prompt('Один из последних посмотренный фильмов?', '');
+filmRaiting = prompt('Рейтинг фильма?','');
 
 personalMovies.movies[filmName] = +filmRaiting;
 
